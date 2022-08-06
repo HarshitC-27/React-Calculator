@@ -52,10 +52,16 @@ export default function keypad(props) {
     }
   ];
   const symbols=[
+    
     {
       label: "⌫",
       keyCode: 8,
       value: "backspace",
+    },
+    {
+      label: "C",
+      keyCode: 67,
+      value: "c",
     },
     {
       label: "÷",
@@ -76,7 +82,7 @@ export default function keypad(props) {
       label: "+",
       keyCode: 107,
       value: "+",
-    }
+    },
   ];
   return (
     <div className='keypad'>

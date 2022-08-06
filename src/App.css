@@ -24,7 +24,7 @@
   background-color: gray;
 }
 .app{
-  background-color: salmon;
+  background-image: url("./assets/pale-light-blue-plain-background-173434882.jpg");
   min-height: 100vh;
   display: flex;
   justify-content: center;
